@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/img_frame_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_1"
+                />
+            <TextView
+                android:id="@+id/select_1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第1个选项"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_2"
+                />
+            <TextView
+                android:id="@+id/select_2"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第2个选项"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_3"
+                />
+            <TextView
+                android:id="@+id/select_3"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第3个选项"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/img_4"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_4"
+                />
+            <TextView
+                android:id="@+id/select_4"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第4个选项"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/img_5"
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_5"
+                />
+            <TextView
+                android:id="@+id/select_5"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="第5个选项"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
